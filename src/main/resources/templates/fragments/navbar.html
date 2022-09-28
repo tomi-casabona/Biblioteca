@@ -1,0 +1,14 @@
+<nav  th:fragment="navbar" class="navbar navbar-toggler navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" th:href="@{/}">Inicio</a>
+        <a class="navbar-brand" th:href="@{/libro/list}">Libros</a>
+        <a class="navbar-brand" th:href="@{/autor/list}">Autores</a>
+        <a class="navbar-brand" th:href="@{/editorial/list}">Editoriales</a>
+        <a class="navbar-brand" sec:authorize="hasRole('ROLE_ADMIN')" th:href="@{/registro/list}">Usuarios</a>
+        <a class="navbar-brand" sec:authorize="hasRole('ROLE_USER')" th:href="@{/registro/vista}">Usuarios</a>
+        <a class="navbar-brand" sec:authorize="!isAuthenticated()" th:href="@{/registro}">Registrarse</a>
+        <a class="navbar-brand" sec:authorize="!isAuthenticated()" th:href="@{/login}">Iniciar Sesion</a>
+        <a class="navbar-brand" sec:authorize="isAuthenticated()" th:href="@{/logout}">Cerrar Sesion</a>
+
+    </div>
+</nav>

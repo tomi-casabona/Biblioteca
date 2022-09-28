@@ -1,0 +1,105 @@
+*{box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: gray;
+    background-image: url("/img/libreria-hogwarts.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header {
+   
+    padding: 30px;
+    
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+    font-weight: bolder;    
+    color: lightgray;
+}
+
+
+nav{  
+  
+};
+
+
+
+h2{
+    
+  margin:  3%;
+    text-align: center;
+    
+}
+
+
+a{
+    text-decoration: none;
+color: whitesmoke;
+
+}
+
+.acciones{
+    text-decoration: none;
+color: gray;
+
+}
+.acciones:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: underline; 
+    color: whitesmoke;
+;
+ }
+     
+
+
+.titulolibro{font-weight: bolder;}
+
+.divt{   
+    overflow:scroll;
+  height: 300px;
+  width: auto;
+    
+}
+
+table {
+      color: gray;
+    padding: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+    text-align: center;
+    align-items: center;          
+
+}
+#card{
+    height: 400px;
+    width: auto;
+
+    display: flex;
+}
+
+th {
+    color: gray;
+
+    text-decoration: underline;
+}
+td {
+    color: gray;
+
+}
+tr{
+    color: gray;
+
+    
+}
+
+
+
+    
