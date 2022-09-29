@@ -1,19 +1,23 @@
 *{box-sizing: border-box;}
 
-body {
-    margin: 0;
+main {
+    margin-top: 0;
     padding: 0;
     color: gray;
-    background-image: url("/img/libreria-hogwarts.jpg");
-    background-size: cover;
+    background-position: inherit; 
+    background-image: url("/img/biblioteca.jpg");
+    background-size:cover;
     background-attachment: fixed;
+    background-repeat: no-repeat
 
 }
 
 header {
-   
-    padding: 30px;
-    
+    background-color: black;
+    background-image: url("/img/pensaderolargo.jpg");
+    background-size:contain;
+    background-repeat:space;
+    padding: 30px;    
     text-align: center;  
     font-family: Arial, Helvetica, sans-serif;
     font-stretch: extra-expanded;
@@ -21,30 +25,29 @@ header {
     color: lightgray;
 }
 
-
 nav{  
-  
+
 };
 
 
 
 h2{
-    
-  margin:  3%;
+
+    margin:  3%;
     text-align: center;
-    
+
 }
 
 
 a{
     text-decoration: none;
-color: whitesmoke;
+    color: whitesmoke;
 
 }
 
 .acciones{
     text-decoration: none;
-color: gray;
+    color: gray;
 
 }
 .acciones:hover{
@@ -55,25 +58,25 @@ color: gray;
 a:hover{
     text-decoration: underline; 
     color: whitesmoke;
-;
- }
-     
+    ;
+}
+
 
 
 .titulolibro{font-weight: bolder;}
 
 .divt{   
     overflow:scroll;
-  height: 300px;
-  width: auto;
-    
+    height: 300px;
+    width: auto;
+
 }
 
 table {
-      color: gray;
+    color: gray;
     padding: 10px;
-   margin-left: 20px;
-   margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
     align-items: center;          
 
@@ -97,9 +100,8 @@ td {
 tr{
     color: gray;
 
-    
+
 }
 
 
 
-    

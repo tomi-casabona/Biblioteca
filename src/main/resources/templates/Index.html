@@ -11,10 +11,11 @@ and open the template in the editor.
 </head>
 
 <body>
+    <div id="header">
     <header>
         <h1> "El Pensadero" </h1>        
     </header>
-    
+    </div>
     <nav th:replace="/fragments/navbar :: nav"></nav>
     <div th:replace="/fragments/errores :: div"></div>
     
@@ -25,7 +26,7 @@ and open the template in the editor.
    </svg>        
  <p  class="text-center"> Sesion iniciada!</p> 
 </div>
-
+    <main>
        <div class="carrousel">
         <div id="carouselExampleDark" class="carousel carousel-secondary slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -107,7 +108,7 @@ and open the template in the editor.
   </button>
 </div>
 </div>
-        
+        </main>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
                 integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
